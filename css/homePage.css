@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121c32;
+    color: white;
+    text-align: center;
+}
+.navbar {
+    background-color: #26354e;
+    padding: 20px;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.navbar li {
+    margin: 0 15px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar a:hover {
+    color: #aeb1b8;
+    transition: 0.5s;
+}
+.hero {
+    padding: 70px;
+    margin-top:40px;
+    width: 1300px;
+    margin-left: 3%;
+    border-radius: 10px;
+    background-color: #26354e;
+}
+.alink {
+text-decoration: none;
+color: white;
+}
+
+.alink:hover {
+    color: #aeb1b8;
+    transition: 0.5s;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: #26354e;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    bottom: 20px;
+    margin: 20px;
+}
+footer {
+    padding: 15px;
+    background-color: #26354e;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
