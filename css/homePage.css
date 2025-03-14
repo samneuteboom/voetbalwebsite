@@ -5,10 +5,12 @@ body {
     color: white;
     text-align: center;
 }
+
 .navbar {
     background-color: #26354e;
     padding: 20px;
 }
+
 .navbar ul {
     list-style-type: none;
     padding: 0;
@@ -16,29 +18,36 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .navbar li {
     margin: 0 15px;
 }
+
 .navbar a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
+
 .navbar a:hover {
     color: #aeb1b8;
     transition: 0.5s;
 }
+
 .hero {
     padding: 70px;
-    margin-top:40px;
-    width: 1300px;
-    margin-left: 3%;
+    margin-top: 40px;
+    width: 90%; 
+    max-width: 1300px; 
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
     background-color: #26354e;
 }
+
 .alink {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .alink:hover {
@@ -51,20 +60,50 @@ color: white;
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    flex-wrap: wrap; 
 }
+
 .card {
     background-color: #26354e;
     padding: 20px;
     border-radius: 8px;
     width: 250px;
-    bottom: 20px;
     margin: 20px;
+    text-align: center;
 }
+
+/* Groene knop stijl */
+.button {
+    background-color: #00ff7f;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #00cc66;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #00994d;
+    transform: scale(0.95);
+}
+
 footer {
     padding: 15px;
     background-color: #26354e;
     bottom: 0px;
     left: 0;
     width: 100%;
-    position: fixed;
+    position: relative; 
+    text-align: center;
+    color: white;
 }
